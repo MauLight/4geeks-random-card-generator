@@ -1,1 +1,64 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body,
+html {
+  height: 100%;
+  background-color: #028351;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  background-image: url("https://www.wargamer.com/wp-content/uploads/2022/05/blackjack-rules-mat.jpg");
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.body {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: aliceblue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.48);
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.48);
+}
+
+.cardbody {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 100px;
+  left: -10px;
+  position: relative;
+  top: 10px;
+}
+
+.sym {
+  font-size: 40px;
+}
+
+#downsym {
+  transform: rotate(-180deg);
+}
+
+.btn {
+  position: relative;
+  left: 18px;
+}
